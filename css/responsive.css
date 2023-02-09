@@ -1,0 +1,116 @@
+
+@media (max-width: 1199px) {
+.block-grid-area .multiple-block-grid {
+    padding: 0;
+}
+.block-grid-area .single-block-grid {
+	width: 100%;
+	margin: 80px auto;
+	padding: 0;
+}
+.banner-area .carousel-inner .item .content {
+	padding-top: 160px;
+	padding-bottom: 90px;
+}
+.about-grid .header-line {
+	font-size: 32px;
+}
+.banner-area {
+	background-image: none;
+	min-height: auto;
+	background-color: #666;
+}
+}
+@media (max-width: 991px) {
+.block-grid-area .blog-grid-text h3 {
+    margin-top: 20px !important;
+}
+.block-grid-area.others-grid .single-block-grid:nth-child(2n) h3 {
+	text-align: left;
+}
+.block-grid-area.others-grid .single-block-grid:nth-child(2n) p {
+	text-align: left;
+}
+.block-grid-area.others-grid .single-block-grid:nth-child(2n) h3::after {
+	left: 0;
+}
+.block-grid-area.others-grid .single-block-grid:nth-child(2n) .post-button-wrapper .post-button {
+	margin-bottom: 30px;
+    float:left;
+}
+.navbar-light .navbar-toggler {
+    padding: 0;
+    border: 0;
+    color: #000;
+    opacity: 1;
+}
+.navbar-toggler:focus {
+	box-shadow:none;
+}
+.header-area .navbar-collapse .navbar-nav .nav-link {
+	padding: 10px 0;
+}
+.banner-area.about-banner .video-content{
+	top:0;
+}
+.banner-area.about-banner .video-content video{
+	width: 200%;
+}
+.banner-area.about-banner .header-area .navbar-collapse .navbar-nav .nav-link {
+	color: #666;
+}
+.content-about img {
+	margin: auto auto 30px;
+}
+.header-area .navbar-collapse {
+	padding: 10px 15px;
+	background: #fff;
+}
+.banner-area.about-banner .header-area .navbar-collapse .navbar-nav .nav-link, 
+.banner-area.wild-banner .header-area .navbar-collapse .navbar-nav .nav-link {
+	color: #666;
+}
+}
+@media (max-width: 767px) {
+.block-grid-area .single-block-grid {
+    margin: 0 0 50px;
+    padding: 0;
+}
+.block-grid-area .blog-grid-text h3 {
+	font-size: 22px;
+}
+.header-line {
+	font-size: 41px;
+}
+.block-grid-area .blog-grid-text ul li {
+	font-size: 13px;
+}
+.contact-box p {
+	font-size: 15px;
+}
+.contact-box .mail-link {
+	font-size: 32px;
+}
+.contact-box {
+	padding: 70px 0 100px;
+}
+.banner-area .carousel-inner .item .content {
+	padding-top: 130px;
+}
+.header-area .navbar-collapse {
+	padding: 10px 15px;
+    background:#fff;
+}
+.banner-area .carousel-inner .item .content h1 {
+	font-size: 32px;
+}
+.block-grid-area .multiple-block-grid.content-about {
+	padding: 70px 0 80px;
+}
+.about-grid .header-line {
+	font-size: 24px;
+}
+.block-grid-area.about-grid {
+	padding: 70px 0px 0px;
+}
+}
